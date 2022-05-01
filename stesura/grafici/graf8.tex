@@ -1,0 +1,36 @@
+\begin{figure}
+\centering
+\begin{tikzpicture}
+\begin{axis}[
+legend style={font=\scriptsize},
+%xmin = -1, xmax = 1,
+ymax =0.915,
+grid = major,
+major grid style=dashed,
+xlabel = s, 
+ylabel = $ \lvert G' \rvert $,
+width=13cm,
+legend columns=2
+]
+
+\addplot [mark=, mark size=0.7pt, green] table [x index=0, y index=3] {gvars8.dat};
+\addplot [mark=, mark size=0.7pt, amber] table [x index=0, y index=3] {gvars9.dat};
+\addplot [mark=, mark size=0.7pt, magenta] table [x index=0, y index=3] {m1039m8.dat};
+\addplot [mark=, mark size=0.7pt, cyan] table [x index=0, y index=3] {m1039m9.dat};
+\addplot [mark=, mark size=0.7pt, black] table [x index=0, y index=3] {m4275m8.dat};
+\addplot [mark=, mark size=0.7pt,blue] table [x index=0, y index=3] {m4275m9.dat};
+\addplot [mark=, mark size=0.7pt,aurometalsaurus] table [x index=0, y index=3] {m4280m8.dat};
+\addplot [mark=, mark size=0.7pt,red] table [x index=0, y index=3] {m4280m9.dat};
+\legend{$ k=8 $ n.m.,
+		$ k=9 $ n.m.,
+		$ k=8 $ m. (10-39), 
+		$ k=9 $ m. (10-39), 
+		$ k=8 $ m. (42-75), 
+		$ k=9 $ m. (42-75),
+		$ k=8 $ m. (42-80), 
+		$ k=9 $ m. (42-80)}
+\end{axis}
+\end{tikzpicture}
+\caption{Valori di $ \lvert G' \rvert $ (10-39,42-75) al variare di $ s $ (2hqx)}
+\label{fig:g3}
+\end{figure}

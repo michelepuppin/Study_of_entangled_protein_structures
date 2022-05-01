@@ -1,0 +1,17 @@
+A partire dal file 2hqx.pdb, tramite awk selezionando le righe /CA/ della catena A, ho ottenuto "inputfile.txt" ossia un file del tipo (x, y, z, B-factor). 
+
+Ho calcolato la matrice Hessiana usando: 
+- per C-alfa distanti R0>18A, gamma=0
+- per C-alfa distanti R0<18A, gamma=10 per C-alfa consecutivi e gamma=1 per C-alfa non consecutivi.
+L'Hessiana 3Nx3N così ottenuta è stampata nel file "matrice.txt"
+
+Ho calcolato, tramite il pacchetto Eigen, gli autovalori e gli autovettori per una matrice autoaggiunta essendo l'Hessiana reale e simmetrica. Gli autovalori sono stampati nel file "autovalori.txt". Ci sono come atteso i primi sei autovalori dell'ordine di 10^(-6). Gli autovalori, come atteso, sono tutti positivi ad eccezione del primo che ha segno negativo. Ho cercato di analizzare il problema ma non riesco a capirne il motivo. Può essere che, essendo gli autovalori calcolati in modo numerico ed essendo quel valore molto vicino allo zero, l'incertezza con cui viene calcolato gli permetta di essere negativo?
+
+Ho poi stampato nel file "bfactor.txt" le N coppie (i,B-factor) e ho calcolato l'area (area1) sotto il grafico semplicemente sommando tutti gli N B-factor.
+
+Ho calcolato gli elementi della matrice Nx3N deltaR0_ik (eq. 26 dell'articolo su Chemical Reviews).
+
+Ho sommato sui 3N-6 k ottenendo gli N valori deltaR_i, ho sommato gli N deltaR_i per ottenere l'area (area2) e ho stampato sul file "deltaRi.txt" le N coppie (i,(area1/area2)*deltaR_i). Ho plottato i due file sovrapposti nel grafico "bfactor.png" e mi sembra che i deltaR_i quantomeno rispettino in linea di massima l'andamento del B-factor. 
+
+Ho infine calcolato il degree of collectivity K_k sommando sugli N deltaR_i e ho stampato nel file "kappa.txt" le 3N-6 coppie (k,K_k) che ho poi plottato nel file "kappa.png".
+

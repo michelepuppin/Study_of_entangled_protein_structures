@@ -1,0 +1,57 @@
+\begin{thebibliography}{1}
+
+\bibitem{protein_physics}
+A.~Finkelstein and O.~Ptitsyn.
+\newblock {\em Protein Physics: A Course of Lectures}.
+\newblock Accademic Press, 2002.
+
+\bibitem{Jackson2017HowTF}
+E.~J. Sophie, A.~Suma, and C.~Micheletti.
+\newblock How to fold intricately: using theory and experiments to unravel the
+  properties of knotted proteins.
+\newblock {\em Current opinion in structural biology}, 42:6--14, 2017.
+
+\bibitem{lunghezza}
+K.~W. Plaxco, K.~T. Simons, I.~Ruczinski, and D~Baker.
+\newblock Topology, stability, sequence and length: Defining the determinants
+  of two-state protein folding kinetics.
+\newblock {\em Biochemistry}, 39(37):11177--11183, 2000.
+
+\bibitem{preprint}
+M.~Baiesi, E.~Orlandini, F.~Seno, and A.~Trovato.
+\newblock Evolutionary patterns detected in entangled proteins.
+\newblock {\em arXiv e-prints}, page arXiv:1809.02173, Sep 2018.
+
+\bibitem{Baiesi_2017}
+M.~Baiesi, E.~Orlandini, F.~Seno, and A.~Trovato.
+\newblock Exploring the correlation between the folding rates of proteins and
+  the entanglement of their native states.
+\newblock {\em Journal of Physics A: Mathematical and Theoretical},
+  50(50):504001, Nov 2017.
+
+\bibitem{chem_rev}
+I.~Bahar, T.~R. Lezon, A.~Bakan, and I.~H. Shrivastava.
+\newblock Normal mode analysis of biomolecular structures: Functional
+  mechanisms of membrane proteins.
+\newblock {\em Chemical reviews}, 110:1463--97, Nov 2009.
+
+\bibitem{phys_rev}
+M.~M. Tirion.
+\newblock Large amplitude elastic motions in proteins from a single-parameter,
+  atomic analysis.
+\newblock {\em Physical review letters}, 77(9):1905--1908, Aug 1996.
+
+\bibitem{iop_science}
+C.~Chennubhotla, A.~J. Rader, L.~W. Yang, and I.~Bahar.
+\newblock Elastic network models for understanding biomolecular machinery: from
+  enzymes to supramolecular assemblies.
+\newblock {\em Physical biology}, 2:S173--80, Nov 2005.
+
+\bibitem{md}
+C.~Micheletti, P.~Carloni, and A.~Maritan.
+\newblock Accurate and efficient description of protein vibrational dynamics:
+  Comparing molecular dynamics and gaussian models.
+\newblock {\em Proteins: Structure, Function, and Bioinformatics},
+  55(3):635--645, 2004.
+
+\end{thebibliography}

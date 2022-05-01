@@ -1,0 +1,22 @@
+Il valore del linking number per i due loop è: 
+G(1-50/51-122)=-3.06744
+G(10-50/51-122)=-2.2388
+
+Ho calcolato la deformazione di prova con s_max=45 per il modo k=7 ottenendo una differenza fra la distanza cm-res157 e cm-res157 deformato del 10.5809% della distanza cm-res157. Per il modo 7 il residuo 157 è quello con il più alto coefficiente di mobilità
+
+Le derivate prime dei G sono:
+dG (1-50/51-122) = 0.000484161
+dG (10-50/51-122) = -7.27549e-05
+
+Le derivate seconde dei G sono:
+d2G (1-50/51-122) = -8.66865e-06
+d2G (10-50/51-122) = -0.00320737
+
+Le derivate prime della distanza sono:
+dd (51-112) = 0.0355419
+dd (10-50) = 0.00538732
+
+Le derivate seconde della distanza sono:
+d2d (51-112) = 28.8381
+d2d (10-50) = 6.15237
+

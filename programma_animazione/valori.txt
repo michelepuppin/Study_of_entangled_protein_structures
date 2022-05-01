@@ -1,0 +1,1 @@
+Ho calcolato la deformazione di prova con s_max=0 per il modo k=0 ottenendo una differenza fra la distanza cm-res157 e cm-res157 deformati del nan% della distanza cm-res157

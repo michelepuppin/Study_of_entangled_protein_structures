@@ -1,0 +1,46 @@
+This is BibTeX, Version 0.99d (TeX Live 2017/Debian)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: tesi.aux
+The style file: unsrt.bst
+Database file #1: /home/michele_puppin/Scrivania/stesura_tesi/sezioni/biblio.bib
+You've used 9 entries,
+            1791 wiz_defined-function locations,
+            510 strings with 5206 characters,
+and the built_in function-call counts, 2434 in all, are:
+= -- 221
+> -- 104
+< -- 1
++ -- 38
+- -- 29
+* -- 173
+:= -- 368
+add.period$ -- 27
+call.type$ -- 9
+change.case$ -- 8
+chr.to.int$ -- 0
+cite$ -- 9
+duplicate$ -- 115
+empty$ -- 220
+format.name$ -- 29
+if$ -- 559
+int.to.chr$ -- 0
+int.to.str$ -- 9
+missing$ -- 10
+newline$ -- 48
+num.names$ -- 9
+pop$ -- 18
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 74
+stack$ -- 0
+substring$ -- 185
+swap$ -- 42
+text.length$ -- 1
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 0
+while$ -- 17
+width$ -- 10
+write$ -- 100

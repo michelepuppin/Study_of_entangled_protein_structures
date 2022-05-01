@@ -1,0 +1,18 @@
+Ho calcolato la deformazione di prova con s_max=85 per il modo k=7 ottenendo una differenza fra la distanza cm-res157 e cm-res157 deformato del 10.2106% della distanza cm-res157. Per il modo 7 il residuo 157 è quello con il più alto coefficiente di mobilità
+
+Le derivate prime dei G sono:
+dG (1-50/51-122) = -0.000156346
+dG (10-50/51-122) = 3.89763e-05
+Le derivate seconde dei G sono:
+d2G (1-50/51-122) = 0.00434325
+d2G (10-50/51-122) = 0.00277705
+
+Le derivate prime della distanza sono:
+dd (51-112) =  0.000348254
+dd (10-50) = -0.000707763
+
+Le derivate seconde della distanza sono:
+d2d (51-122) = 0.0514088
+d2d (10-50) = 0.70385
+
+NB: le derivate sono state divise per il valore della funzione in zero

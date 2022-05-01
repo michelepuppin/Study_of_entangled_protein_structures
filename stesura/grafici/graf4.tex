@@ -1,0 +1,27 @@
+\begin{figure}
+\centering
+\begin{tikzpicture}
+\begin{axis}[
+legend style={font=\scriptsize},
+%xmin = -1, xmax = 1,
+ymax =0.11,
+grid = major,
+major grid style=dashed,
+xlabel = Residuo, 
+ylabel = Coeff. di mobilità (\AA$^2$),
+width=13cm,
+legend columns=3
+]
+
+\addplot [mark=*, mark size=0.7pt, green] table [x index=0, y index=1] {deltaRikfiss.dat};
+\addplot [mark=*, mark size=0.7pt, cyan] table [x index=0, y index=2] {deltaRikfiss.dat};
+\addplot [mark=*, mark size=0.7pt, magenta] table [x index=0, y index=3] {deltaRikfiss.dat};
+\addplot [mark=*, mark size=0.7pt, red] table [x index=0, y index=4] {deltaRikfiss.dat};
+\addplot [mark=*, mark size=0.7pt, black] table [x index=0, y index=5] {deltaRikfiss.dat};
+\addplot [mark=*, mark size=0.7pt,blue] table [x index=0, y index=6] {deltaRikfiss.dat};
+\legend{$ k=6 $, $ k=7 $, $ k=8 $, $ k=9 $, $ k=10 $, $ k=11 $, }
+\end{axis}
+\end{tikzpicture}
+\caption{Profili di mobilità a $ k $ fissato (2hqx)}
+\label{fig:gr_coll_sing}
+\end{figure}

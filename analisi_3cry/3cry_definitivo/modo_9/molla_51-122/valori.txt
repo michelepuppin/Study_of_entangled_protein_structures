@@ -1,0 +1,9 @@
+Ho calcolato la deformazione di prova con s_max=150 per il modo k=9 ottenendo una differenza fra la distanza cm-res157 e cm-res157 deformati del 10.5529% della distanza cm-res157
+dG (1-50) = -3.42721e-05
+dG (10-50) = -3.54915e-05
+d2G (1-50) = -0.000130298
+d2G (10-50) = -2.77705e-05
+dd (51-122) = -0.000108823
+d2d (51-122) = 0.0514085
+dd (10-50) = -0.000321571
+d2d (10-50) = 0.703852
